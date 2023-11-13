@@ -64,10 +64,10 @@ body {
 .navbar-brand:hover,
 .navbar-brand:focus {
     background: none;
-    padding: 0;
     border-radius: 0;
     transition: none;
     box-shadow: none;
+    
 }
 
 /* Style for the site namen */
@@ -84,6 +84,7 @@ body {
 a {
     color: black;
     text-decoration: none;
+    padding: 5px;
 }
 
 /* Style for list links on hover and focus */
