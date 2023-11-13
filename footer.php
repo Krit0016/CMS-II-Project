@@ -10,12 +10,12 @@
         <?php
         $column1_links = array(
             'Home' => home_url('/'),
-            'About Banff' => '#',
-            'Activities and Attractions' => '#',
+            'About Banff' => 'https://dev-krit0016.pantheonsite.io/about-banff/',
+            'Activities and Attractions' => 'https://dev-krit0016.pantheonsite.io/activities-and-attractions/',
         );
 
         foreach ($column1_links as $label => $url) {
-            echo '<li class="nav-item mb-2"><a href="' . esc_url($url) . '" class="nav-link p-0 text-body-secondary">' . esc_html($label) . '</a></li>';
+            echo '<li class="nav-item mb-2"><a href="' . esc_url($url) . '" class="footer nav-link p-0 text-body-secondary">' . esc_html($label) . '</a></li>';
         }
         ?>
       </ul>
@@ -28,11 +28,11 @@
         $column2_links = array(
             'Services' => '#',
             'Portfolio' => '#',
-            'Contact' => '#',
+            'Contact Us' => 'https://dev-krit0016.pantheonsite.io/contact/',
         );
 
         foreach ($column2_links as $label => $url) {
-            echo '<li class="nav-item mb-2"><a href="' . esc_url($url) . '" class="nav-link p-0 text-body-secondary">' . esc_html($label) . '</a></li>';
+            echo '<li class="nav-item mb-2"><a href="' . esc_url($url) . '" class="footer nav-link p-0 text-body-secondary">' . esc_html($label) . '</a></li>';
         }
         ?>
       </ul>
@@ -49,7 +49,7 @@
         );
 
         foreach ($column3_links as $label => $url) {
-            echo '<li class="nav-item mb-2"><a href="' . esc_url($url) . '" class="nav-link p-0 text-body-secondary">' . esc_html($label) . '</a></li>';
+            echo '<li class="nav-item mb-2"><a href="' . esc_url($url) . '" class="footer nav-link p-0 text-body-secondary">' . esc_html($label) . '</a></li>';
         }
         ?>
       </ul>

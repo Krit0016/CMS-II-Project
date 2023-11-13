@@ -45,6 +45,13 @@ body {
     margin: 0;
 }
 
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    background: none;
+    transition: background 0.3s ease, color 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+
 /* Style for list links */
 .navbar-nav .nav-link {
     padding: 0.5rem 1rem; 
@@ -53,10 +60,23 @@ body {
     margin: 0 10px;
 }
 
+/* Remove hover and focus styles for navbar-brand */
+.navbar-brand:hover,
+.navbar-brand:focus {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    transition: none;
+    box-shadow: none;
+}
+
+/* Style for the site namen */
+.navbar-brand {
+    font-weight: bold;
+}
+
 /* Style for the site description */
-navbar-text {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+.navbar-text {
     color: black;
     font-weight: bold;
 }
@@ -103,3 +123,17 @@ a:focus {
     border-radius: 10px;
 }
 
+/* Style the footer links hover */
+a.footer.nav-link:hover {
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    transition: none;
+    box-shadow: none;
+}
+
+/* Style the footer container */
+/* footer.container.py-5.my-5.border-top {
+    background: #A7C957;
+} */
