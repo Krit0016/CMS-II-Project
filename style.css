@@ -1,0 +1,105 @@
+/*
+Theme Name: CMS II Project
+Theme Author: Orranis Krittayaruangkit
+Catherine Manrique
+Santiago Lopez
+Ana Carolina Maia
+
+*/
+
+
+/* Color Palette */
+:root {
+    --primary-color: #A7C957;
+    --secondary-color: #F5CAC3;
+    --text-color: #333;
+    --background-color: #fff;
+    --accent-color: #C8F1F9;
+    --dark-green: #225218;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'poppins';
+}
+  
+  
+
+/* Reset default Bootstrap styles for navbar */
+.navbar {
+    background-color: #C8F1F9;
+    padding: 1rem 0; 
+}
+
+/* Equal spacing around each list link */
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+/* Remove default margin for list items */
+.navbar-nav .nav-item {
+    margin: 0;
+}
+
+/* Style for list links */
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem; 
+    color: #000000; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style for the site description */
+navbar-text {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Style for list links on hover and focus */
+a:hover,
+a:focus {
+    background: #F5CAC3;
+    padding: 5px;
+    border-radius: 15px;
+    transition: background 0.3s ease, color 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+
+
+.menu li a {
+    text-decoration: none;
+}
+
+
+.hero-section {
+    padding-top: 50px;
+   
+}
+
+/* Style for text in the hero-banner */
+
+.lead {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style for text in cards section*/
+.custom-heading {
+    font-size: 2rem;
+    color: #225218;
+    background-color: rgba(255, 255, 255, 0.4); /* Adjust the alpha value (0.7) for the desired opacity */
+    padding: 5px;
+    border-radius: 10px;
+}
+
